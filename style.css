@@ -1,0 +1,29 @@
+ @font-face{font-family: 'typeface'; src: url('src/typeface/typeface.ttf') format('truetype');}
+    body
+        {
+            font-family: 'typeface', serif; 
+            color:#FCFCFC
+        } 
+    a
+        {
+            color:#65C5F1;
+        } 
+    h1
+        {
+            color:#fff45f;
+        } 
+    h2
+        {
+            color:#fff45f;
+            display: inline;
+        }
+    summary
+        {
+            display: inline
+        }
+    input
+        {
+            background-color: #3D3838; 
+            color:#FCFCFC; 
+            font-family: 'facetype'
+        }
