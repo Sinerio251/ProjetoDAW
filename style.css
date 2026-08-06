@@ -2,7 +2,8 @@
     body
         {
             font-family: 'typeface', serif; 
-            color:#FCFCFC
+            color:#FCFCFC;
+            font-size: 150%;
         } 
     a
         {
