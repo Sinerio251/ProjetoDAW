@@ -27,3 +27,18 @@
             color:#FCFCFC; 
             font-family: 'facetype'
         }
+     .CUTSCENES
+        { 
+            width: 40%;
+            height: auto; 
+            display: inline;
+            margin: 0px 10px;   
+         }
+       .Mingxiao
+        {
+         width:100%;
+            display: block; 
+            margin: 0 auto;"   
+        }
+
+
