@@ -8,7 +8,7 @@
         {
             font-family: 'typeface', serif; 
             color:#FCFCFC;
-            font-size: 150%;
+            font-size: 300%;
         } 
     a
         {
@@ -25,7 +25,8 @@
         }
     summary
         {
-            display: inline
+            color:#fff45f;
+            display: inline;
         }
     input
         {
@@ -51,5 +52,32 @@
             width: 40%;
             margin: 10px 10px;
         }
-
+     table
+        {
+            width: 100%; 
+            height: auto;
+            font-size: 75%
+        }
+     input
+        {
+            width: 35%;
+            height: 2%;
+            font-size: 50%;
+            font-family: 'typeface'
+        }
+       textarea
+       {
+           width:70%;
+           height:12.5%;
+           background-color: #3D3838;
+           font-size: 50%;
+           font-family: 'typeface';
+           color: #FCFCFC;
+       }
+     #bug
+      {
+          width:55%;
+          font-size: 43%;
+          height:auto;
+      }
 
