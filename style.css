@@ -8,7 +8,7 @@
         {
             font-family: 'typeface', serif; 
             color:#FCFCFC;
-            font-size: 300%;
+            font-size: 200%;
         } 
     a
         {
@@ -17,11 +17,13 @@
     h1
         {
             color:#fff45f;
+            text-shadow: 6px 5px #967705;
         } 
     h2
         {
             color:#fff45f;
             display: inline;
+            text-shadow: 6px 5px #967705;
         }
     summary
         {
@@ -36,8 +38,8 @@
         }
     .CUTSCENES
         { 
-            width: 40%;
-            height: auto; 
+            width: auto;
+            height: 25%; 
             display: inline;
             margin: 0px 10px;   
         }
@@ -80,4 +82,14 @@
           font-size: 43%;
           height:auto;
       }
-
+      #Capa
+        {
+            width: 80%; 
+            display:block; 
+            margin:auto auto;
+        }
+        table
+        {
+            border-spacing: 0;
+            border-color: #FCFCFC;
+        }
