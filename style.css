@@ -38,8 +38,7 @@
         }
     .CUTSCENES
         { 
-            width: auto;
-            height: 25%; 
+            width: 50%;
             display: inline;
             margin: 0px 10px;   
         }
@@ -49,10 +48,11 @@
             display: block; 
             margin: 0 auto;
         }
-    #2videos
+    #videos2
         {
             width: 40%;
-            margin: 10px 10px;
+            display: inline-block;
+            margin: 0px 10px;
         }
      table
         {
@@ -93,3 +93,38 @@
             border-spacing: 0;
             border-color: #FCFCFC;
         }
+        #menu
+              {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  text-justify: center;
+                  background-color: gray;
+                  world-spacing: 20px;
+                  height: 75px;
+                  a{
+                      color: white;
+                      text-decoration-line: none;
+                   }
+                  #baixar
+                  {
+                   display: flex;
+                   justify-content: center;
+                   text-align: center;   
+                   background-color:#fff45f;
+                   border: 5px double #fff45f;
+                      border-radius: 4px;
+                      margin: 2% 5%;
+                      a{
+                      color: #362902;
+                      text-decoration-line: none;
+                      font-size:150%;   
+                   }
+                  }
+            #wiki
+                  {
+                      margin: 2% 5%;
+                      font-size: 150%;
+                  }
+              }
+          
