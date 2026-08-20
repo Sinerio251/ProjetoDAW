@@ -9,7 +9,8 @@
             font-family: 'typeface', serif; 
             color:#FCFCFC;
             font-size: 200%;
-        } 
+            background-color:#1D1B1B;
+        }    
     a
         {
             color:#65C5F1;
@@ -102,6 +103,7 @@
                   background-color: gray;
                   world-spacing: 20px;
                   height: 75px;
+                  margin: 0 0;
                   a{
                       color: white;
                       text-decoration-line: none;
