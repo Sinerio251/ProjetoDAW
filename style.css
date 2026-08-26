@@ -9,7 +9,12 @@
             font-family: 'typeface', serif; 
             color:#FCFCFC;
             font-size: 200%;
-            background-color:#1D1B1B;
+            background-color:#1D1B1B;   
+            background-image: url(src/gif/background.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0 0;
         }    
     a
         {
@@ -101,7 +106,7 @@
                   align-items: center;
                   text-justify: center;
                   background-color: gray;
-                  world-spacing: 20px;
+                  word-spacing: 20px;
                   height: 75px;
                   margin: 0 0;
                   a{
@@ -115,6 +120,7 @@
                    text-align: center;   
                    background-color:#fff45f;
                    border: 5px double #fff45f;
+                   word-spacing: 5px;
                       border-radius: 4px;
                       margin: 2% 5%;
                       a{
