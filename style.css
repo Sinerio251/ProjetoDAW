@@ -3,7 +3,7 @@
             font-family: 'typeface';
             src: url('src/typeface/typeface.ttf') 
             format('truetype');
-        }
+        }    
     body
         {
             font-family: 'typeface', serif; 
@@ -82,39 +82,40 @@
            font-family: 'typeface';
            color: #FCFCFC;
        }
-     #bug
+    #bug
       {
           width:55%;
           font-size: 43%;
           height:auto;
       }
-      #Capa
+    #Capa
         {
             width: 80%; 
             display:block; 
             margin:auto auto;
         }
-        table
+    table
         {
             border-spacing: 0;
             border-color: #FCFCFC;
         }
-        #menu
-              {
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  text-justify: center;
-                  background-color: gray;
-                  word-spacing: 20px;
-                  height: 75px;
-                  margin: 0 0;
-                  a{
+    #menu
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-justify: center;
+                background-color: gray;
+                word-spacing: 20px;
+                height: 75px;
+                margin: 0 0;
+                a
+                    {
                       color: white;
                       text-decoration-line: none;
-                   }
-                  #baixar
-                  {
+                    }
+                #baixar
+                    {
                    display: flex;
                    justify-content: center;
                    text-align: center;   
@@ -123,16 +124,28 @@
                    word-spacing: 5px;
                       border-radius: 4px;
                       margin: 2% 5%;
-                      a{
-                      color: #362902;
-                      text-decoration-line: none;
-                      font-size:150%;   
-                   }
+                    a
+                        {
+                            color: #362902;
+                            text-decoration-line: none;
+                            font-size:150%;   
+                        }
                   }
-            #wiki
+             #wiki
                   {
                       margin: 2% 5%;
                       font-size: 150%;
                   }
               }
+    main
+        {
+            min-width: 320px;
+            max-width: 850px;
+            margin: 0 auto;
+            background-color:#1D1B1B;
+            padding: 10px;
+            border-left: 10px #fff45f groove;
+            border-right: 10px #fff45f groove;
+            box-shadow: 10px 50px #1D1B1B ;
+        }    
           
