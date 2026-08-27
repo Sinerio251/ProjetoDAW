@@ -9,12 +9,7 @@
             font-family: 'typeface', serif; 
             color:#FCFCFC;
             font-size: 200%;
-            background-color:#1D1B1B;   
-            background-image: url(src/gif/background.gif);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            margin: 0 0;
+            background-color:#1D1B1B;
         }    
     a
         {
@@ -139,13 +134,44 @@
               }
     main
         {
-            min-width: 320px;
-            max-width: 850px;
+            min-width: 350px;
+            max-width: 1080px;
             margin: 0 auto;
             background-color:#1D1B1B;
             padding: 10px;
             border-left: 10px #fff45f groove;
             border-right: 10px #fff45f groove;
-            box-shadow: 10px 50px #1D1B1B ;
-        }    
-          
+            
+        }
+    #background
+        {
+            background-image: url(src/gif/background.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0 0;
+        }
+    hr
+        {
+            border: 5px #fff45f dashed;
+        }
+    @media (max-width: 986px)
+        {
+            #background
+            {
+                display: none;
+            }
+            main
+            {
+                border: none;
+                font-size: 150%;
+            }
+            #capa
+            {
+                margin: 0 0;
+                width:100%;
+            }
+        }
+
+    
+
